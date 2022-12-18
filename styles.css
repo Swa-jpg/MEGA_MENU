@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap');
+
+body {
+    background: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+}
+
+button:focus,
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+header {
+    background-color: #ef146c;
+    padding: 15px 0;
+
+}
+
+
+.navbar-brand {
+    font-size: 50px;
+    font-weight: 700;
+    color:#3F3B51;
+    font-family: lobster,cursive;
+    
+
+    
+
+}
+
+
+.navbar-brand:hover {
+    color:plum;
+
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+    
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+}
+
+
+.dropdown-menu .dropdown-item {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color:#ef146c ;
+    color: #fff;
+}
+
+.dropdown-mega .dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-mega h5 {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin: 0;
+}
+
+.list-group-item {
+    font-size: 16px;
+    color: #405855;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: 12px 0;
+}
+
+.list-group-item:hover {
+    color: #ef146c;
+}
+
+.btn {
+    background-color:plum;
+}
+
+section {
+    height: 100vh;
+}
+
+footer a{
+    color: #0AEDED;
+
+}
+
+ 
+
+/* Responsive */
+@media(max-width: 991.5px) {
+    .navbar-brand {
+        font-size: 30px
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 10px;
+    }
+
+    form {
+        margin: 30px 0;
+    }
+}
